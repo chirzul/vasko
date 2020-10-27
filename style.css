@@ -1,0 +1,27 @@
+.heart {
+    color: rgb(255, 80, 80);
+}
+
+.carousel-item img {
+    /* height: 400px; */
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 15px;
+        margin-left: 15px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        text-transform: uppercase;
+    }
+    
+    .nav-link:hover::after {
+        border-bottom: 3px solid #333333;
+        content: '';
+        display: block;
+        margin: auto;
+        margin-bottom: -8px;
+        padding-bottom: 5px;
+        width: 50%;
+    }
+}
